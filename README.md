@@ -12,6 +12,7 @@ Test Driven Development (TDD) is an important skill to have for Web Developers, 
 ### How to run the Udacity Feed Reader project:
 * I have provided a GitHub Project Page that can be viewed to try the application:
   * [GitHub Project Page](https://chadwyck242.github.io/feed-reader-testing/)
+  * This may trigger a security warning in your browser, so only allow the application scripts to run at your own discretion. Otherwise follow the steps below.
 * The project is located in my GitHub repository for cloning/downloading at [My Feed-Reader Testing Project](https://github.com/chadwyck242/feed-reader-testing)
 * If you wish to run the project locally after downloading, try using the [npm](https://www.npmjs.com/) package [http-server](https://www.npmjs.com/package/http-server):
   * Using http-server requires having [Nodejs](https://nodejs.org/en/) installed. Follow this link provided and install according to your operating system.
