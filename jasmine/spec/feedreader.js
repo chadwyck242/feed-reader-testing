@@ -88,12 +88,8 @@ $(function() {
          });
     });
 
-    // A new test suite named "New Feed Selection" */
+    // A new test suite named "New Feed Selection"
     describe('New Feed Selection', () => {
-        /* TODO: Write a test that ensures when a new feed is loaded
-         * by the loadFeed function that the content actually changes.
-         * Remember, loadFeed() is asynchronous.
-         */
         let initialContent, initialFeed, newContent, newFeed;
 
         beforeEach(done => {
@@ -104,6 +100,8 @@ $(function() {
             });
         });
 
+        // A test that ensures when a new feed is loaded
+        // by the loadFeed function that the content actually changes
         it('ensures content changes when new feed is loaded', done => {
             loadFeed(1, () => {
                 newFeed = $('.feed');
