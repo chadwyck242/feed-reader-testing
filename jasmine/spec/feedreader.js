@@ -75,7 +75,6 @@ $(function() {
          beforeEach(done => {
              loadFeed(0, () => {
                  containerEntry = $('.feed .entry');
-                 console.log(containerEntry);
                  done();
              });
          });
